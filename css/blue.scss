@@ -1,0 +1,168 @@
+
+  header {
+    background: url("../img/blue/header/fon.jpg") center top no-repeat;
+    @media(max-width: 614px) {
+      background-image: url("../img/blue/header/fon-min.jpg");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-color: #0d83dd;
+      background-size: cover;
+    }
+  }
+  footer {
+    background: url("../img/blue/header/fon.jpg") center bottom no-repeat #0d83dd;
+    border-bottom: 5px solid #7fbeee;
+    @media(max-width: 569px) {
+
+      background-color: #0d83dd;
+
+    }
+    .zag {
+      background-image: url("../img/blue/footer/zag.jpg");
+      color: #eedd75;
+      @media(max-width: 753px){
+        border-bottom: 2px solid #7fbeee;
+        background-image: none;
+      }
+    }
+    .option {
+      color: #f1f9ff;
+    }
+    .active {
+      color: #eedd75
+    }
+
+    .icon1 { background-image: url("../img/blue/footer/icon1.png")}
+    .icon2{ background-image: url("../img/blue/footer/icon2.png")}
+    .icon3{ background-image: url("../img/blue/footer/icon3.png")}
+    .icon4{ background-image: url("../img/blue/footer/icon4.png")}
+
+  }
+  .logo {
+    background-image: url("../img/blue/header/logo-head_blue.png");
+
+  }
+  .select {
+    background: #2296ee;
+  }
+  .arow {
+    background-color: #2296ee;
+  }
+  .welcom, .video {
+    background: url("../img/blue/welcom/fon-big.jpg") center top no-repeat;
+  }
+  .welcom{
+    nav{
+      a{
+        background: #779bd8;
+        color: #ffffff;
+      }
+      .active {
+        a {
+          border-color: #eedd75;
+          background: #eedd75;
+          color: #636660;
+        }
+      }
+    }
+  }
+  .funds {
+    background: #f1f9ff;
+    .zag{ color: #4c5154;}
+  }
+  .line {
+    background: #eedd75;
+  }
+  .puck {
+    background: #eedd75;
+    color: #4c5154;
+  }
+  .progress-block {
+    background: #e3e6e8;
+    .active {
+      -webkit-box-shadow: 0px 0px 25px 0px rgba(238, 221, 117, 0.95);
+      -moz-box-shadow: 0px 0px 25px 0px rgba(238, 221, 117, 0.95);
+      box-shadow: 0px 0px 25px 0px rgba(238, 221, 117, 0.95);
+    }
+  }
+  .bx-pager-item {
+    a {
+      background: #829099;
+      border-color: #eedd75;
+    }
+    .active{
+      border-color: #eedd75 !important;
+      background: #eedd75;
+    }
+  }
+  .donat-button,.donat-button2{
+    background: #73ab20;
+    background: -moz-linear-gradient(left, #73ab20 0%, #85c525 100%);
+    background: -webkit-linear-gradient(left, #73ab20 0%, #85c525 100%);
+    background: linear-gradient(to right, #73ab20 0%, #85c525 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73ab20', endColorstr='#85c525', GradientType=1);
+    webkit-box-shadow: 0px -8px 30px 0px rgba(133, 197, 37, 0.25);
+    -moz-box-shadow: 0px -8px 30px 0px rgba(133, 197, 37, 0.25);
+    box-shadow: 0px -8px 30px 0px rgba(133, 197, 37, 0.25);
+    .arow{
+      border-color: #a8ce6f !important;
+    }
+  }
+  .right-block{
+    .button-line{
+      a,input{
+        border-color: #efe082 !important;
+      }
+      .active{
+        background: #efe082;
+      }
+    input:focus{
+      background: #efe082 !important;
+      font: 20px/46px 'robotoBlack' !important;
+      color: #4c5154 !important;
+    }
+    }
+  }
+ .documents-line{
+   .zag-line{
+     background: url("../img/blue/document/zag.jpg") center left repeat-x;
+     h2{
+       background: #f1f9ff;
+       color: #829099;
+     }
+   }
+ }
+  .bx-prev {
+    float: left;
+    background: url("../img/document/prev.jpg") center no-repeat;
+  }
+  .bx-next {
+    float: right;
+    background: url("../img/document/next.jpg") center no-repeat;
+  }
+  .more-line{
+    a{
+      background: #6f93d5;
+    }
+  }
+  .slogan{
+    background: url("../img/blue/slogan-fon.jpg") center top no-repeat;
+    .text{
+      h2{color: #4c5154;
+        small{
+          color: #829099;
+        }
+      }
+      p{
+        color: #829099;
+      }
+    }
+    .logo-line{
+      a{
+        background: url("../img/blue/logo2.png") center no-repeat;
+      }
+    }
+  }
+  .donate-line{
+    .text{color: #829099;}
+  }

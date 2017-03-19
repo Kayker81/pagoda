@@ -1,0 +1,180 @@
+
+header {
+  background: url("../img/twilight/header/fon.jpg") center top no-repeat;
+  @media(max-width: 614px) {
+    background-image: url("../img/twilight/header/fon-min.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #0d83dd;
+    background-size: cover;
+  }
+}
+footer {
+  background: url("../img/twilight/header/fon.jpg") center bottom no-repeat #397b9d;
+  border-bottom: 5px solid #80acbc;
+  @media(max-width: 569px) {
+    background-color: #80acbc;
+  }
+  .zag {
+    background-image: url("../img/twilight/footer/zag.jpg");
+    color: #edf7fa;
+    @media(max-width: 753px){
+      border-bottom: 2px solid #d9c6b6;
+      background-image: none;
+    }
+  }
+  .option {
+    color: #edf7fa;
+  }
+
+
+  .icon1 { background-image: url("../img/twilight/footer/icon1.png")}
+  .icon2{ background-image: url("../img/twilight/footer/icon2.png")}
+  .icon3{ background-image: url("../img/twilight/footer/icon3.png")}
+  .icon4{ background-image: url("../img/twilight/footer/icon4.png")}
+
+}
+.logo {
+  background-image: url("../img/twilight/header/logo-head.png");
+
+}
+.select {
+  background: #edf7fa;
+  p{color: #485154!important;}
+  .arow{
+    background-image: url("../img/twilight/header/arow.png") !important;
+  }
+}
+.welcom, .video {
+  background: url("../img/twilight/welcom/fon-big.jpg") center top no-repeat;
+}
+.welcom{
+  nav{
+    a{
+      background: #72919b;
+      color: #ffffff;
+    }
+    .active {
+      a {
+        border-color: #edf7fa;
+        background: #edf7fa;
+        color: #485154;
+      }
+    }
+  }
+}
+.funds {
+  background: #edf7fa;
+  .zag{
+    color: #485154;
+    span{
+      background: #b37d4e !important;
+      color: #FFFFFF !important;
+    }
+  }
+}
+.line {
+  background: #b37d4e;
+}
+.puck {
+  background: #b37d4e;
+}
+.bx-pager-item {
+  a {
+    background: #ab9c90;
+
+  }
+  .active{
+    border-color: #b37d4e !important;
+    background: #b37d4e;
+  }
+}
+.progress-block {
+  background: #e3e6e8;
+  .active {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(199, 160,125, 0.95);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(199, 160,125, 0.95);
+    box-shadow: 0px 0px 25px 0px rgba(199, 160,125, 0.95);
+  }
+}
+
+
+.donat-button,.donat-button2{
+  background: #73ab20;
+  background: -moz-linear-gradient(left, #9d5f9f 0%, #ba71bd 100%);
+  background: -webkit-linear-gradient(left, #9d5f9f 0%, #ba71bd 100%);
+  background: linear-gradient(to right, #9d5f9f 0%, #ba71bd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d5f9f', endColorstr='#ba71bd', GradientType=1);
+  webkit-box-shadow: 0px -8px 30px 0px rgba(157, 95, 159, 0.25);
+  -moz-box-shadow: 0px -8px 30px 0px rgba(157, 95, 159, 0.25);
+  box-shadow: 0px -8px 30px 0px rgba(157, 95, 159, 0.25);
+  .arow{
+    border-color: #cd9fce!important;
+  }
+}
+.right-block{
+  .button-line{
+    a,input{
+      border-color: #ba895f!important;
+      color: #5e564f !important;
+    }
+    .active{
+      background: #ba895f;
+      color: #FFFFFF !important;
+    }
+    input:focus{
+      background: #ba895f!important;
+      font: 20px/46px 'robotoBlack' !important;
+      color: #FFFFFF !important;
+    }
+  }
+}
+.documents-line{
+  .zag-line{
+    background: url("../img/twilight/document/zag.jpg") center left repeat-x;
+  }
+  h2{
+    background: #edf7fa;
+    color: #718085;
+  }
+}
+.bx-prev {
+  float: left;
+  background: url("../img/twilight/document/prev.png") center no-repeat;
+}
+.bx-next {
+  float: right;
+  background: url("../img/twilight/document/next.png") center no-repeat;
+}
+.more-line{
+  a{
+    background: #69869f;
+  }
+}
+.slogan{
+  background: url("../img/twilight/slogan-fon.jpg") center top no-repeat;
+  .text{
+    h2{color: #485154;
+      small{
+        color: #9d5f9f;
+      }
+    }
+    p{
+      color: #718085;
+    }
+  }
+  .logo-line{
+    a{
+      background: url("../img/twilight/logo2.png") center no-repeat;
+    }
+  }
+}
+.donate-line{
+  .text{color: #718085 !important;}
+}
+.maney-line {
+  span{
+    color: #b37d4e !important;
+  }
+}
+
